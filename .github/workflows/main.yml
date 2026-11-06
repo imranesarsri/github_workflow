@@ -4,9 +4,9 @@ on:
     branches:
       - main   
 jobs:
-  amin:
+  imrane:
     runs-on: ubuntu-latest
     
     steps:
       - name: print a welcome message
-    run: echo "welcome to our first github action workflo!"
+        run: echo "welcome to our first github action workflo!"
