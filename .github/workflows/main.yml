@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
+      
 jobs:
   amin:
     runs-on: ubuntu-latest
+    
     steps:
       - name: print a welcome message
       run: echo "welcome to our first github action workflo!"
-      
-  
